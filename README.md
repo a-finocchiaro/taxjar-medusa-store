@@ -22,6 +22,13 @@ git clone git@github.com:a-finocchiaro/taxjar-medusa-store.git
 npm install
 ```
 
+3) Add necessary environment variables
+
+```sh
+TAXJAR_API_KEY=1234  # To test, use the sandbox key
+TAXJAR_URL="https://api.sandbox.taxjar.com"  # remove sandbox in production
+```
+
 3) Start the server
 
 ```
